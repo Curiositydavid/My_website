@@ -6,7 +6,6 @@ body{
    overflow: auto;
    box-sizing:border-box;
    object-fit:cover;
-   margin:30px;
 }
 *{
        overflow: visible;
