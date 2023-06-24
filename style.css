@@ -1,0 +1,251 @@
+body{
+   background-image:url(image/IMG.JPG);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size:cover;
+   margin:20px;
+   overflow: auto;
+   box-sizing:border-box;
+   object-fit:cover;
+}
+*{
+       overflow: visible;
+}
+
+#wishes{
+
+       position: absolute;
+       font-size:4em;
+
+       animation-name: fadein;
+
+       animation-duration:5s;
+
+       opacity:0;
+
+       animation-play-state: running;
+
+       top:50%;
+
+       left:25%;
+
+       color:red;
+
+}
+
+@keyframes fadein{
+
+       100%{opacity:1}
+
+}
+
+
+#greetings{
+
+       padding:30px;
+       margin-top:80px;
+       margin-left:40px;
+       font-size: 20px;
+       margin-right:50px;
+       margin-bottom:70px;
+       float:left;
+       display:block;
+
+       color: yellow;
+
+       border:5px solid yellow;
+
+       text-align:center;
+
+}
+#greetings{
+       text-shadow:5px 5px 7px red, -4px -4px 7px yellow;
+}
+
+img{
+       height:300px;
+       width:auto;
+       border-radius: 600px;
+       margin:60px;
+       border: 10px yellow solid;
+       float:right;
+       top:20px;
+}
+
+@keyframes slideRight{
+
+       to{transform:translatex(400%)}
+
+}
+
+#quote{
+
+       font-size: 20px;      
+
+       padding:10px;
+
+       margin-left:60px;
+       
+
+       color:yellow;
+
+       float:down;
+
+       text-align:center;
+
+}
+
+
+
+.navbar ul{
+       padding:0px;
+       margin:10px;
+       float:left;
+}
+
+.navbar a{
+       text-decoration:none;
+       display:block;
+       padding:15px;
+       color: yellow;
+       font-size:20px;
+       text-align: center;
+
+}
+
+.navbar li{
+
+       float:left;
+
+}
+
+.navbar a:hover{
+
+       background-color: black;
+
+       color:red;
+
+}
+
+
+
+#occupation{
+
+       display: block;
+       font-size:1em;
+       color: yellow;
+       margin-top:40px;
+       margin-left:50px;
+       margin-right:50px;
+       margin-bottom:100px;
+       padding: 100px;
+       float:left;
+       text-shadow:5px 5px 7px red, -4px -4px 7px yellow;
+       float:right;
+}
+
+
+label{
+
+       font-size:13px;
+
+       font-style:italic;
+
+       float:right;
+
+       margin-right:50px;
+       
+       margin-top:20px;
+
+       padding:7px;
+
+       border:2px yellow solid;
+
+       color: yellow;
+}
+
+label:hover{
+      box-shadow:3px 3px 7px white;
+      cursor:pointer;
+}
+
+
+input{
+       border:none;
+       float:right;
+       margin-right:10px;
+       margin-bottom:40px;
+       margin-top:20px;
+       padding:10px;
+       background-color:lightblue;
+       width:50%;
+}
+
+
+
+h2{
+
+       text-align:center;
+
+       color: yellow;
+
+}
+
+
+
+p{
+
+       margin:10px;
+
+       color:yellow;
+
+       font-size:24px;
+
+       padding:40px;
+
+}
+
+#work{
+       margin:10px;
+       color:yellow;
+       font-size:24px;
+       border:none;
+       padding:40px;
+}
+
+.work{
+       text-align:center;
+       color: yellow;
+}
+
+#link{
+       color: yellow;
+       text-decoration: none;
+       font-size: 20px;
+       border:1px solid;
+       text-align:center;
+       
+}
+#link:hover{
+       color:yellow;
+       background-color:black;
+       padding:2px;
+       
+}
+
+#search{
+       background-color:yellow
+}
+
+.first{
+       float:left;
+}
+aside{
+       float:right;
+}
+
+.third{
+       float:left;
+}
+
+
